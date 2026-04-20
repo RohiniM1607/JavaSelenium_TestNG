@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="LoginSuite">
-
-    <!-- VALID LOGIN -->
-    <test name="ChromeValidLogin">
-        <parameter name="browser" value="chrome"/>
-        <parameter name="username" value="sowndariya"/>
-        <parameter name="password" value="Sow@911!"/>
-        <parameter name="testType" value="valid"/>
+<suite name="Demoblaze Suite">
+    <test name="DemoblazeDataProvider Test">
         <classes>
-            <class name="com.TestNG.Selenium.TestNGParameter"/>
+            <class name="testng.Demo.DemoblazeDataProvider"/>
         </classes>
     </test>
-
-    <!-- INVALID USER -->
-    <test name="ChromeInvalidUser">
-        <parameter name="browser" value="chrome"/>
-        <parameter name="username" value="*sk"/>
-        <parameter name="password" value="Sow@911!"/>
-        <parameter name="testType" value="invalidUser"/>
-        <classes>
-            <class name="com.TestNG.Selenium.TestNGParameter"/>
-        </classes>
-    </test>
-
-    <!-- INVALID PASSWORD -->
-    <test name="ChromeInvalidPassword">
-        <parameter name="browser" value="chrome"/>
-        <parameter name="username" value="sowndariya"/>
-        <parameter name="password" value="sow@911"/>
-        <parameter name="testType" value="invalidPassword"/>
-        <classes>
-            <class name="com.TestNG.Selenium.TestNGParameter"/>
-        </classes>
-    </test>
-
 </suite>
