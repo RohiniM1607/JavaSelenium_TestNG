@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T16:37:12 IST" name="Default suite" finished-at="2026-04-20T16:37:30 IST" duration-ms="18185">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T16:37:12 IST" name="Default test" finished-at="2026-04-20T16:37:30 IST" duration-ms="18185">
+      <class name="testng.Demo.DemoblazeDataProvider">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:12 IST" name="setUp" finished-at="2026-04-20T16:37:15 IST" duration-ms="3142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:15 IST" name="loginTest" data-provider="loginData" finished-at="2026-04-20T16:37:20 IST" duration-ms="4157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RohiniM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohini_16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:20 IST" name="tearDown" finished-at="2026-04-20T16:37:20 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:20 IST" name="setUp" finished-at="2026-04-20T16:37:22 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:22 IST" name="loginTest" data-provider="loginData" finished-at="2026-04-20T16:37:25 IST" duration-ms="2927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohiniM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohini_16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalidUserName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:25 IST" name="tearDown" finished-at="2026-04-20T16:37:26 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:26 IST" name="setUp" finished-at="2026-04-20T16:37:28 IST" duration-ms="2242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:28 IST" name="loginTest" data-provider="loginData" finished-at="2026-04-20T16:37:30 IST" duration-ms="2414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RohiniM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.Demo.DemoblazeDataProvider@54c5a2ff]" started-at="2026-04-20T16:37:30 IST" name="tearDown" finished-at="2026-04-20T16:37:30 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.Demo.DemoblazeDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

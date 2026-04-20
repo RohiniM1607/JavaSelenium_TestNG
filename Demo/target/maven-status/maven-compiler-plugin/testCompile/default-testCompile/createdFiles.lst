@@ -1,0 +1,10 @@
+TestNG_Assertion\TestAssertions.class
+testng\Demo\AnnotationCheck.class
+TestNG_Assertion\DemoBlazeAssert.class
+testng\Demo\AppTest.class
+testng\Demo\OrderCheck.class
+testng\Demo\DependsOnGroup.class
+testng\Demo\GroupsExample.class
+TestNG_Assertion\SoftAssertion.class
+testng\Demo\DemoBlaze.class
+testng\Demo_CommandLineTest\DemoBlazeParallel.class
