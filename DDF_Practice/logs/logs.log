@@ -1,0 +1,92 @@
+[INFO ] 2026-04-22 12:39:31.512 [main] Logger_TutorialsNinjaTest - Fetching invalid email data from Excel
+[DEBUG] 2026-04-22 12:39:32.119 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:39:32.124 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:39:32.127 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:39:34.446 [main] Logger_TutorialsNinjaTest - ========== Starting Test ==========
+[INFO ] 2026-04-22 12:39:37.592 [main] Logger_TutorialsNinjaTest - Chrome browser launched
+[INFO ] 2026-04-22 12:39:37.713 [main] Logger_TutorialsNinjaTest - Browser window maximized
+[INFO ] 2026-04-22 12:39:39.333 [main] Logger_TutorialsNinjaTest - TutorialsNinja website opened
+[INFO ] 2026-04-22 12:39:39.344 [main] Logger_TutorialsNinjaTest - Executing Invalid Email Login Test
+[INFO ] 2026-04-22 12:39:39.344 [main] Logger_TutorialsNinjaTest - Email Used: rohini1@gmail.com
+[DEBUG] 2026-04-22 12:39:39.559 [main] Logger_TutorialsNinjaTest - Clicked My Account
+[DEBUG] 2026-04-22 12:39:40.173 [main] Logger_TutorialsNinjaTest - Clicked Login option
+[DEBUG] 2026-04-22 12:39:40.518 [main] Logger_TutorialsNinjaTest - Entered Invalid Email
+[DEBUG] 2026-04-22 12:39:40.802 [main] Logger_TutorialsNinjaTest - Entered Password
+[INFO ] 2026-04-22 12:39:42.172 [main] Logger_TutorialsNinjaTest - Clicked Submit button
+[INFO ] 2026-04-22 12:39:42.431 [main] Logger_TutorialsNinjaTest - Invalid Email Login Test Passed
+[WARN ] 2026-04-22 12:39:42.432 [main] Logger_TutorialsNinjaTest - Login failed because of invalid email
+[INFO ] 2026-04-22 12:39:42.448 [main] Logger_TutorialsNinjaTest - Closing Browser
+[INFO ] 2026-04-22 12:39:42.873 [main] Logger_TutorialsNinjaTest - Browser closed successfully
+[INFO ] 2026-04-22 12:39:42.873 [main] Logger_TutorialsNinjaTest - ========== Test Finished ==========
+[INFO ] 2026-04-22 12:39:42.878 [main] Logger_TutorialsNinjaTest - Fetching invalid password data from Excel
+[DEBUG] 2026-04-22 12:39:42.913 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:39:42.918 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:39:42.923 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:39:43.030 [main] Logger_TutorialsNinjaTest - ========== Starting Test ==========
+[INFO ] 2026-04-22 12:39:44.788 [main] Logger_TutorialsNinjaTest - Chrome browser launched
+[INFO ] 2026-04-22 12:39:44.847 [main] Logger_TutorialsNinjaTest - Browser window maximized
+[INFO ] 2026-04-22 12:39:46.084 [main] Logger_TutorialsNinjaTest - TutorialsNinja website opened
+[INFO ] 2026-04-22 12:39:46.086 [main] Logger_TutorialsNinjaTest - Executing Invalid Password Login Test
+[INFO ] 2026-04-22 12:39:46.088 [main] Logger_TutorialsNinjaTest - Email Used: rohini@gmail.com
+[DEBUG] 2026-04-22 12:39:46.250 [main] Logger_TutorialsNinjaTest - Clicked My Account
+[DEBUG] 2026-04-22 12:39:46.691 [main] Logger_TutorialsNinjaTest - Clicked Login option
+[DEBUG] 2026-04-22 12:39:47.129 [main] Logger_TutorialsNinjaTest - Entered Email
+[DEBUG] 2026-04-22 12:39:47.274 [main] Logger_TutorialsNinjaTest - Entered Invalid Password
+[INFO ] 2026-04-22 12:39:47.480 [main] Logger_TutorialsNinjaTest - Clicked Submit button
+[INFO ] 2026-04-22 12:39:48.665 [main] Logger_TutorialsNinjaTest - Invalid Password Login Test Passed
+[WARN ] 2026-04-22 12:39:48.667 [main] Logger_TutorialsNinjaTest - Login failed because of invalid password
+[INFO ] 2026-04-22 12:39:48.675 [main] Logger_TutorialsNinjaTest - Closing Browser
+[INFO ] 2026-04-22 12:39:49.079 [main] Logger_TutorialsNinjaTest - Browser closed successfully
+[INFO ] 2026-04-22 12:39:49.080 [main] Logger_TutorialsNinjaTest - ========== Test Finished ==========
+[INFO ] 2026-04-22 12:39:49.084 [main] Logger_TutorialsNinjaTest - Fetching valid login data from Excel
+[DEBUG] 2026-04-22 12:39:49.113 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:39:49.118 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:39:49.122 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:39:49.206 [main] Logger_TutorialsNinjaTest - ========== Starting Test ==========
+[INFO ] 2026-04-22 12:39:50.806 [main] Logger_TutorialsNinjaTest - Chrome browser launched
+[INFO ] 2026-04-22 12:39:50.904 [main] Logger_TutorialsNinjaTest - Browser window maximized
+[INFO ] 2026-04-22 12:39:52.185 [main] Logger_TutorialsNinjaTest - TutorialsNinja website opened
+[INFO ] 2026-04-22 12:39:52.189 [main] Logger_TutorialsNinjaTest - Executing Valid Login Test
+[INFO ] 2026-04-22 12:39:52.189 [main] Logger_TutorialsNinjaTest - Email Used: rohini@gmail.com
+[DEBUG] 2026-04-22 12:39:52.372 [main] Logger_TutorialsNinjaTest - Clicked My Account
+[DEBUG] 2026-04-22 12:39:52.855 [main] Logger_TutorialsNinjaTest - Clicked Login option
+[DEBUG] 2026-04-22 12:39:53.083 [main] Logger_TutorialsNinjaTest - Entered Email
+[DEBUG] 2026-04-22 12:39:53.269 [main] Logger_TutorialsNinjaTest - Entered Password
+[INFO ] 2026-04-22 12:39:54.712 [main] Logger_TutorialsNinjaTest - Clicked Submit button
+[INFO ] 2026-04-22 12:39:54.949 [main] Logger_TutorialsNinjaTest - Valid Login Test Passed
+[INFO ] 2026-04-22 12:39:54.956 [main] Logger_TutorialsNinjaTest - Closing Browser
+[INFO ] 2026-04-22 12:39:55.347 [main] Logger_TutorialsNinjaTest - Browser closed successfully
+[INFO ] 2026-04-22 12:39:55.349 [main] Logger_TutorialsNinjaTest - ========== Test Finished ==========
+[DEBUG] 2026-04-22 14:30:58.020 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:30:58.076 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:30:58.078 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:31:13.664 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:31:13.672 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:31:13.675 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:31:25.413 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:31:25.415 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:31:25.416 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:31:57.820 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:31:57.830 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:31:57.833 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:32:12.303 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:32:12.309 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:32:12.312 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:32:24.257 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:32:24.262 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:32:24.267 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:34:03.826 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:34:03.835 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:34:03.839 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:34:46.719 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:34:46.732 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:34:46.735 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:39:56.152 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:39:56.165 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:39:56.167 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:40:14.496 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:40:14.501 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:40:14.503 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 14:40:27.586 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 14:40:27.591 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 14:40:27.595 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
