@@ -38,16 +38,16 @@ public class Demo1_OrangeHRM {
 	
 	@Test
 	public void VerifyMyinfo() {
-		System.out.println(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h6[text()='Personal Details']"))).isDisplayed());
-		//System.out.println(driver.findElement(By.xpath("//h6[text()='Personal Details']")).isDisplayed());
-		System.out.println("My info verified");
-		driver.close();
+	    System.out.println(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h6[text()='Personal Details']"))).isDisplayed());
+	    System.out.println(driver.findElement(By.xpath("//h6[text()='Personal Details']")).isDisplayed());
+	    System.out.println("My info verified");
+	    driver.close();
 	}
 	
 	@Test
 	public void VerifyLogin() {
 		System.out.println(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@class='oxd-userdropdown-img']"))).isDisplayed());
 		System.out.println("Login verified");
-		driver.close();
+		
 	}
 }
