@@ -1,48 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<!-- <test name="LoginTest">
-		<classes>
-			<class name="testngPractice.TestNG.Demo1_OrangeHRM">
-				<methods>
-					<include name="LaunchApplication"></include>
-					<include name="LoginWithCredentials"></include>
-					<include name="VerifyLogin"></include>
-				</methods>
-			</class>
-		</classes>
-	</test>
-
-	<test name="MyInfoTest">
-		<classes>
-			<class name="testngPractice.TestNG.Demo1_OrangeHRM">
-				<methods>
-					<include name="LaunchApplication"></include>
-					<include name="LoginWithCredentials"></include>
-					<include name="NavigateToMyinfoTab"></include>
-					<include name="VerifyMyinfo"></include>
-				</methods>
-			</class>
-		</classes>
-	</test>
-
-	<test name="GoogleTest">
-		<classes>
-			<class name="testngPractice.TestNG.Demo1">
-				<methods>
-					<include name="TestGoogle"></include>
-				</methods>
-			</class>
-		</classes>
-	</test>
-	
-	<test name="YoutubeTest">
-		<classes>
-			<class name="testngPractice.TestNG.Demo1">
-				<methods>
-					<include name="TestYoutube"></include>
-				</methods>
-			</class>
-		</classes>
-	</test>-->
+    <test name="Test">
+        <classes>
+            <class name="testngPractice.TestNG.Demo1"/>
+        </classes>
+    </test>
 </suite>
