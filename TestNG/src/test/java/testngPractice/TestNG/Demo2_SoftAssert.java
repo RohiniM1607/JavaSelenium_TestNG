@@ -31,10 +31,10 @@ public class Demo2_SoftAssert {
         // Search
         searchBox.sendKeys("TestNG", Keys.ENTER);
         
-        softassert.fail("This test is intentionally failed");
+        //softassert.fail("This test is intentionally failed");
 
         // assertTrue
-        softassert.assertTrue(driver.getTitle().contains("TestNGhh"),
+        softassert.assertTrue(driver.getTitle().contains("TestNG"),
                 "YouTube title does not contain TestNG");
 
         // assertFalse

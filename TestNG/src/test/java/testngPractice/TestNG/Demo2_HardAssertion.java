@@ -32,7 +32,7 @@ public class Demo2_HardAssertion {
         // Search
         searchBox.sendKeys("TestNG", Keys.ENTER);
         
-        Assert.fail("This test is intentionally failed");
+        //Assert.fail("This test is intentionally failed");
 
         // assertTrue
         Assert.assertTrue(driver.getTitle().contains("TestNG"),
