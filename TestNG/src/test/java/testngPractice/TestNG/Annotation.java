@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Demo3_Annotation {
+public class Annotation {
 	@BeforeSuite //Used for global setup/teardown(Example: DB connection, reporting setup), Runs once for entire suite
     public void beforeSuite() {
         System.out.println("Before Suite - Setup DB connection");

@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Demo2_HardAssertion {
+public class HardAssertion {
 	public WebDriver driver;
 
 	@Test

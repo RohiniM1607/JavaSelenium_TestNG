@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class Demo2_SoftAssert {
+public class SoftAssertion {
 	public WebDriver driver;
 	SoftAssert softassert = new SoftAssert();
 	
