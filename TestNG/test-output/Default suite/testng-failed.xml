@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngPractice.TestNG.Demo2_SoftAssert">
+      <class name="testngPractice.TestNG.ParameterAnnotation_OrangeHRM">
         <methods>
-          <include name="TestYoutube"/>
+          <include name="InitializeBrowser"/>
+          <include name="TestMethod"/>
         </methods>
-      </class> <!-- testngPractice.TestNG.Demo2_SoftAssert -->
+      </class> <!-- testngPractice.TestNG.ParameterAnnotation_OrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

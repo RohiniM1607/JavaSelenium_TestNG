@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="LoginTest(failed)">
+  <parameter name="password" value="admin123"/>
+  <parameter name="websiteURL" value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="username" value="Admin"/>
+  <test thread-count="5" name="MyInfoValidation(failed)">
+    <parameter name="broserName" value="firefox"/>
     <classes>
-      <class name="testngPractice.TestNG.Demo1_OrangeHRM">
+      <class name="testngPractice.TestNG.ParameterAnnotation_OrangeHRM">
         <methods>
-          <include name="VerifyLogin"/>
+          <include name="GetBrowser"/>
+          <include name="VerifyMyinfo"/>
+          <include name="NavigateToMyinfoTab"/>
+          <include name="LaunchApplication" invocation-numbers="0"/>
+          <include name="LoginWithCredentials" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testngPractice.TestNG.Demo1_OrangeHRM -->
+      </class> <!-- testngPractice.TestNG.ParameterAnnotation_OrangeHRM -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
+  </test> <!-- MyInfoValidation(failed) -->
 </suite> <!-- Failed suite [Suite] -->
