@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.test.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.test.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="DashboardTest(failed)">
+    <classes>
+      <class name="com.test.DashboardTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="dashboardTest"/>
+        </methods>
+      </class> <!-- com.test.DashboardTest -->
+    </classes>
+  </test> <!-- DashboardTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
