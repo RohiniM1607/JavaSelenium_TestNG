@@ -1,17 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T14:39:54 IST" name="Default suite" finished-at="2026-04-22T14:40:39 IST" duration-ms="45198">
+  <suite started-at="2026-04-28T10:50:00 IST" name="Default suite" finished-at="2026-04-28T10:50:35 IST" duration-ms="35031">
     <groups>
     </groups>
-    <test started-at="2026-04-22T14:39:54 IST" name="Default test" finished-at="2026-04-22T14:40:39 IST" duration-ms="45198">
-      <class name="com.test.TutorialsNinjaTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:39:58 IST" name="setUp" finished-at="2026-04-22T14:40:03 IST" duration-ms="5293" status="PASS">
+    <test started-at="2026-04-28T10:50:00 IST" name="Default test" finished-at="2026-04-28T10:50:35 IST" duration-ms="35031">
+      <class name="com.test.base.BaseTest">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:00 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-04-28T10:50:03 IST" duration-ms="2888" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.test.base.BaseTest.invalidLoginTest(java.lang.String,java.lang.String) throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: invalidLoginTest([java.lang.String arg0, java.lang.String arg1])
+Arguments: [(java.lang.String) mac]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.test.base.BaseTest.invalidLoginTest(java.lang.String,java.lang.String) throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: invalidLoginTest([java.lang.String arg0, java.lang.String arg1])
+Arguments: [(java.lang.String) mac]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:03 IST" name="searchTest" data-provider="searchData" finished-at="2026-04-28T10:50:03 IST" duration-ms="89" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.test.base.BaseTest.searchTest(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: searchTest([java.lang.String arg0])
+Arguments: [(java.lang.String) rohini1@gmail.com,(java.lang.String) Rohini_16]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.test.base.BaseTest.searchTest(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: searchTest([java.lang.String arg0])
+Arguments: [(java.lang.String) rohini1@gmail.com,(java.lang.String) Rohini_16]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:03 IST" name="setUp" finished-at="2026-04-28T10:50:09 IST" duration-ms="5672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithInvalidEmail(java.lang.String,java.lang.String)[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:03 IST" name="loginWithInvalidEmail" data-provider="invalidEmailData" finished-at="2026-04-22T14:40:14 IST" duration-ms="10410" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:09 IST" name="validLoginTest" data-provider="validLoginData" finished-at="2026-04-28T10:50:21 IST" duration-ms="11845" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,18 +112,59 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.test.base.BaseTest.validLoginTest(BaseTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithInvalidEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:14 IST" name="tearDown" finished-at="2026-04-22T14:40:14 IST" duration-ms="338" status="PASS">
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:21 IST" name="close" finished-at="2026-04-28T10:50:21 IST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:14 IST" name="setUp" finished-at="2026-04-22T14:40:17 IST" duration-ms="2505" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:21 IST" name="setUp" finished-at="2026-04-28T10:50:23 IST" duration-ms="1603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:17 IST" name="loginWithInvalidPassword" data-provider="invalidPasswordData" finished-at="2026-04-22T14:40:27 IST" duration-ms="10065" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:23 IST" name="validLoginTest" data-provider="validLoginData" finished-at="2026-04-28T10:50:34 IST" duration-ms="11660" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -48,38 +177,55 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.test.base.BaseTest.validLoginTest(BaseTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:27 IST" name="tearDown" finished-at="2026-04-22T14:40:27 IST" duration-ms="425" status="PASS">
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.base.BaseTest@32c8e539]" started-at="2026-04-28T10:50:35 IST" name="close" finished-at="2026-04-28T10:50:35 IST" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:27 IST" name="setUp" finished-at="2026-04-22T14:40:30 IST" duration-ms="2744" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginWithValidData(java.lang.String,java.lang.String)[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:30 IST" name="loginWithValidData" data-provider="validData" finished-at="2026-04-22T14:40:38 IST" duration-ms="8377" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rohini@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rohini_16]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithValidData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.TutorialsNinjaTest@7674f035]" started-at="2026-04-22T14:40:38 IST" name="tearDown" finished-at="2026-04-22T14:40:39 IST" duration-ms="482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.test.TutorialsNinjaTest -->
+        </test-method> <!-- close -->
+      </class> <!-- com.test.base.BaseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
