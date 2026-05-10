@@ -182,3 +182,12 @@ java.lang.AssertionError: Login failed expected [true] but found [false]
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 [INFO ] 2026-04-28 10:50:35.211 [main] BaseTest - Closing browser
 [INFO ] 2026-04-28 10:50:35.507 [main] BaseTest - Browser closed
+[DEBUG] 2026-05-04 15:46:26.756 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-04 15:46:26.811 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-05-04 15:46:26.816 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-04 15:46:45.904 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-04 15:46:45.912 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-05-04 15:46:45.918 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-05-04 15:46:59.461 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-04 15:46:59.463 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-05-04 15:46:59.465 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
