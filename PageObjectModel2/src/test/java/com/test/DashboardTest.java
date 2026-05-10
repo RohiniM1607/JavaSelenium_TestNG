@@ -10,8 +10,9 @@ public class DashboardTest extends BaseTest{
 	@Test
 	public void dashboardTest() {
 		objLogin = new LoginPage(driver);
-		objLogin.login("Admin", "admin123");
+		
 		objDashboard = new DashboardPage(driver);
+		objLogin.login("Admin", "admin123");
         Assert.assertTrue(objDashboard.getHomePageTitle().contains("Dashboard"));
 	}
 }
